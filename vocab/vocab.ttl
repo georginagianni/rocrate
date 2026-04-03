@@ -1,0 +1,22 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ex: <https://example.org/vocab/> .
+
+ex:text-analysis a skos:Concept ;
+    skos:prefLabel "text analysis"@en ;
+    skos:prefLabel "tekstanalyse"@nl ;
+    skos:definition "A computational analysis of textual data."@en ;
+    skos:definition "Een computationele analyse van tekstuele data."@nl .
+
+ex:speech-corpus a skos:Concept ;
+    skos:prefLabel "speech corpus"@en ;
+    skos:prefLabel "spraakcorpus"@nl ;
+    skos:altLabel "parliamentary corpus"@en ;
+    skos:altLabel "parlementair corpus"@nl ;
+    skos:definition "A collection of speech texts used for analysis."@en ;
+    skos:definition "Een verzameling spraakteksten die voor analyse wordt gebruikt."@nl .
+
+ex:workflow a skos:Concept ;
+    skos:prefLabel "workflow"@en ;
+    skos:prefLabel "werkstroom"@nl ;
+    skos:definition "A sequence of computational research steps."@en ;
+    skos:definition "Een reeks computationele onderzoeksstappen."@nl .

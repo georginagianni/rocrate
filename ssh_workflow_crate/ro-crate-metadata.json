@@ -1,0 +1,87 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2026-04-03",
+            "description": "Web-based tool for linguistic annotation using the FoLiA format.",
+            "hasPart": [
+                {
+                    "@id": "speeches.csv"
+                },
+                {
+                    "@id": "analyze.py"
+                },
+                {
+                    "@id": "provenance.py"
+                },
+                {
+                    "@id": "environment.yml"
+                },
+                {
+                    "@id": "codemeta_enriched.json"
+                },
+                {
+                    "@id": "codemeta_flat.json"
+                },
+                {
+                    "@id": "codemeta_spacy.json"
+                }
+            ],
+            "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+            "name": "FLAT - FoLiA Linguistic Annotation Tool"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "speeches.csv",
+            "@type": "File",
+            "name": "Input dataset"
+        },
+        {
+            "@id": "analyze.py",
+            "@type": "ComputationalWorkflow",
+            "description": "Workflow for SSH text analysis using spaCy, producing word counts, named entities, and POS tags.",
+            "input": "data/speeches.csv",
+            "name": "spaCy-enhanced SSH text analysis workflow",
+            "output": [],
+            "programmingLanguage": "Python"
+        },
+        {
+            "@id": "provenance.py",
+            "@type": "File",
+            "name": "Provenance tracking module"
+        },
+        {
+            "@id": "environment.yml",
+            "@type": "File",
+            "name": "Execution environment"
+        },
+        {
+            "@id": "codemeta_enriched.json",
+            "@type": "File",
+            "name": "Enriched metadata"
+        },
+        {
+            "@id": "codemeta_flat.json",
+            "@type": "SoftwareSourceCode",
+            "description": "External SSH annotation tool represented through CodeMeta metadata.",
+            "name": "FLAT - FoLiA Linguistic Annotation Tool"
+        },
+        {
+            "@id": "codemeta_spacy.json",
+            "@type": "SoftwareSourceCode",
+            "description": "Local executable NLP tool represented through CodeMeta metadata.",
+            "name": "spaCy NLP Toolkit"
+        }
+    ]
+}

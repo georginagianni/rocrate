@@ -1,0 +1,19 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "FLAT - FoLiA Linguistic Annotation Tool",
+  "description": "Web-based tool for linguistic annotation using the FoLiA format.",
+  "codeRepository": "https://github.com/proycon/flat",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Web application",
+  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "executionCommand": "python src/analyze.py",
+  "dataset": {
+    "path": "data/speeches.csv",
+    "type": "local"
+  },
+  "environment": {
+    "memory": "2GB",
+    "cpu": "2 cores"
+  }
+}

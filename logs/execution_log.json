@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-03-10T19:26:19.779245+00:00",
+  "workflow": "analyze.py",
+  "python_executable": "/Users/tzortzinagianni/Desktop/rocrate/.venv/bin/python",
+  "python_version": "3.14.0 (v3.14.0:ebf955df7a8, Oct  7 2025, 08:20:14) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "input_file": "/Users/tzortzinagianni/Desktop/rocrate/data/speeches.csv",
+  "output_file": "/Users/tzortzinagianni/Desktop/rocrate/outputs/word_counts.csv"
+}

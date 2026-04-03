@@ -1,0 +1,10 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "spaCy NLP Toolkit",
+  "description": "Industrial-strength Natural Language Processing in Python.",
+  "codeRepository": "https://github.com/explosion/spaCy",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python library",
+  "license": "https://spdx.org/licenses/MIT.html"
+}

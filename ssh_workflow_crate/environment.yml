@@ -1,0 +1,5 @@
+name: ssh-rocrate-env
+dependencies:
+  - python=3.11
+  - pandas
+  - jupyter

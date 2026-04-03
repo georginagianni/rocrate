@@ -1,0 +1,6 @@
+rocrate
+pandas
+jupyter
+nbformat
+spacy
+ipykernel

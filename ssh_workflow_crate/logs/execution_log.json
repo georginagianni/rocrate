@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-04-03T16:31:35.984050",
+    "message": "Starting spaCy-enhanced text analysis workflow",
+    "input_file": null
+  },
+  {
+    "timestamp": "2026-04-03T16:31:36.240909",
+    "message": "spaCy workflow completed successfully",
+    "input_file": null
+  }
+]
