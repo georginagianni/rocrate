@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+ssh_workflow_crate/
+ssh_workflow_crate_metadata/
+outputs/
+logs/
+.ipynb_checkpoints/
